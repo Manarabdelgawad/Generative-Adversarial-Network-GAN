@@ -9,7 +9,7 @@ env/
 venv/
 .venv/
 .ipynb_checkpoints/
-*.ipynb
+
 .DS_Store
 *.log
 \generator_model_010.h5
