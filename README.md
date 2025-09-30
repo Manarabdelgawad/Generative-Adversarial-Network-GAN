@@ -1,15 +1,13 @@
-**Generative Adversarial Network (GAN)**
+**##Generative Adversarial Network (GAN)**
 
 ![alt text](image.png)
 
-## Project Overview
-In a GAN, the generator creates fake images, and the discriminator judges whether images are real or fake. The generator’s goal is to "fool" the discriminator into thinking its fake images are real.
+## Important Note: Hardware & Time Requirements
 
-## ⚠️ Important Note: Hardware & Time Requirements
+This GAN training process is computationally intensive and time-consuming. The training time depends heavily on your hardware:
 
-**This GAN training process is computationally intensive and time-consuming. The training time depends heavily on your hardware:**
+Recommended minimum hardware:
 
-**Recommended minimum hardware:**
 - NVIDIA GPU with 4GB+ VRAM
 - 8GB+ system RAM
 - TensorFlow with GPU support
@@ -21,6 +19,9 @@ If you don't have adequate hardware, consider using cloud platforms like:
 - Kaggle Notebooks
 
 - Google Cloud AI Platform
+
+## Project Overview
+In a GAN, the generator creates fake images, and the discriminator judges whether images are real or fake. The generator’s goal is to "fool" the discriminator into thinking its fake images are real.
 
 **The two models are like rivals in a game:**
 
